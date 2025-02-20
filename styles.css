@@ -1,0 +1,75 @@
+/* HEADER PAra PC */
+
+
+:root {
+    --blue: #007bff;
+}
+
+header .head-logo-row{
+margin: 0;
+} 
+header .head-logo-row.position-relative.container-fluid {
+    background-color: #007bff;
+    padding: 0;
+    height: 100px;
+}
+
+.col-auto.col-md-3.col-utility.order-md-0 .d-none.d-md-block {
+    margin: 30px 0 0 15px;
+}
+
+.logo-img-container a img {
+    margin-top: 25px;
+    transform: scale(1.8);
+    border-radius: 10px;
+    background: #e0e0e0;
+    box-shadow:  -20px 20px 60px #bebebe,
+                20px -20px 60px #ffffff;
+}
+
+.head-logo-row.position-relative.container-fluid .col-md.col-utility.text-right.d-none.d-md-inline-block.order-md-1 {
+    transform: translate(-9px, -13px);
+}
+
+.head-logo-row.position-relative.container-fluid .col-auto.col-utility.order-2 {
+    transform: translate(-20px, -11px);
+}
+
+.utilities-container.d-none.d-md-inline-block.mr-4 .row.no-gutters.align-items-center .col.pl-2.text-left {
+    width: 150px;
+}
+
+@media (min-width: 768px) AND (max-width: 809px) {
+    .utilities-container.d-none.d-md-inline-block.mr-4 .row.no-gutters.align-items-center{
+        transform: translateX(50px, 10px);
+    }
+
+    .head-logo-row.position-relative.container-fluid .col-auto.col-utility.order-2 {
+        transform: translate(-20px, -1px);
+    }
+
+    .head-logo-row.position-relative.container-fluid .col-md.col-utility.text-right.d-none.d-md-inline-block.order-md-1 {
+        transform: translate(-9px, -3px);
+    }
+}
+
+.form-group.m-0 .js-search-input.form-control.search-input:focus {
+    border: solid 2px rgb(255, 255, 255);
+    -webkit-box-shadow: 0px 0px 20px 4px #fff;
+-moz-box-shadow: 0px 0px 20px 4px #fff;
+box-shadow: 0px 0px 20px 4px #fff;
+transition: all .4s ease-in;
+}
+
+.form-group.m-0 .js-search-input-submit.search-btn.search-submit-btn:hover {
+    background-color: #7489ce;
+    border-radius: 10px;
+    transition: all .4s ease-in;
+}
+
+.col.pl-2.text-left .font-small .font-weight-bold a:hover,
+.col.pl-2.text-left .account_utilities_classes:hover,
+.cart-summary .js-modal-open.js-fullscreen-modal-open.btn.btn-utility.position-relative.pr-0 svg:hover {
+ opacity: .7;
+ transition: all .4s ease-in;
+}
