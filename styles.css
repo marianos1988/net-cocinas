@@ -174,3 +174,128 @@ transition: all .4s ease-in;
     color: #63afff;
     transition: all .4s ease-in;
 }
+
+
+/*Navbar para mobile */
+
+.modal-scrollable-area .modal-body.nav-body {
+    background: linear-gradient(0deg, rgba(72,0,255,1) 7%, rgba(0,189,255,1) 94%);
+} 
+
+.modal-scrollable-area .js-modal-close.modal-header.modal-header-no-title.p-3 {
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%);
+    border-bottom: 2px solid #fff;
+}
+
+.js-modal-close.modal-header.modal-header-no-title.p-3 .icon-inline.svg-icon-text {
+    fill: #fff
+}
+
+.js-modal-close.modal-header.modal-header-no-title.p-3 .icon-inline.svg-icon-text:hover {
+    fill: #63afff;
+    transition: all .4s ease-in;
+}
+
+.nav-list .js-desktop-nav-item.nav-item a,
+.js-toggle-menu-panel.align-items-center.nav-list-link.position-relative  {
+    color: #fff;
+}
+
+.nav-list .js-desktop-nav-item.nav-item a:hover,
+.js-toggle-menu-panel.align-items-center.nav-list-link.position-relative:hover {
+    color: #63afff !important;
+    opacity: 1 !important;
+    transition: all .4s ease-in;
+}
+
+.nav-list-arrow.ml-1 .icon-inline.icon-lg.svg-icon-text {
+    fill: #fff;
+}
+
+.nav-list-arrow.ml-1 .icon-inline.icon-lg.svg-icon-text:hover {
+    fill: #63afff !important;
+    transition: all .4s ease-in;
+}
+
+
+/*Submenu productos*/
+
+.js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show .modal-header {
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%);
+    border-bottom: 2px solid #fff;
+}
+
+.js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show .modal-body.p-0 {
+    background: linear-gradient(0deg, rgba(72,0,255,1) 7%, rgba(0,189,255,1) 94%);
+    border-bottom: 2px solid #fff;
+}
+
+.nav-item.item-with-subitems .js-menu-panel.nav-list-panel.nav-list-panel-right.list-subitems.nav-list-panel-show {
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%);
+
+}
+
+.row.no-gutters.align-items-center .col.pl-2 {
+    color: #fff;
+}
+
+.row.no-gutters.align-items-center .col.pl-2:hover {
+    color: #63afff !important;
+    transition: all .4s ease-in;
+}
+
+.modal-back .icon-inline.svg-icon-text {
+    fill: #fff;
+}
+
+.modal-back .icon-inline.svg-icon-text:hover {
+    fill: #63afff !important;
+    transition: all .4s ease-in;
+}
+
+.js-toggle-menu-close.js-modal-close.modal-close .icon-inline.modal-close-icon {
+    fill: #fff;
+}
+
+.js-toggle-menu-close.js-modal-close.modal-close .icon-inline.modal-close-icon:hover {
+    fill: #63afff !important;
+    transition: all .4s ease-in;
+}
+
+.nav-item.py-1 .nav-list-link.position-relative.font-small.py-3 {
+    color: #fff;
+    opacity: 1 !important;
+}
+
+.nav-item.py-1 .nav-list-link.position-relative.font-small.py-3:hover {
+    color: #63afff !important;
+    transition: all .4s ease-in;
+}
+
+
+/* Iniciar sesion navbar*/
+.modal-with-fixed-footer .modal-footer.text-right.hamburger-footer.mb-0.p-0 {
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%);
+    border-top: 2px solid #fff;
+}
+
+.col-auto.pr-0 .icon-inline.utilities-icon.mr-1 {
+    fill: #fff;
+    background-color: #63afff;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    transform: scale(1.2);
+}
+
+.col.pl-2.text-left a {
+    color: #fff;
+
+}
+
+.col.pl-2.text-left a:hover {
+    color: #63afff !important;
+    transition: all .4s ease-in;
+    
+}
+
