@@ -299,3 +299,8 @@ transition: all .4s ease-in;
     
 }
 
+.js-btn-fixed-bottom.btn-whatsapp:hover {
+    background-color: #2bfc77;
+    transition: all .5s;
+}
+
