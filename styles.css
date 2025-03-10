@@ -304,3 +304,54 @@ transition: all .4s ease-in;
     transition: all .5s;
 }
 
+
+
+
+
+
+/*Footer version pc*/
+
+.js-footer.js-hide-footer-while-scrolling.footer-colors.display-when-content-ready.overflow-none {
+    background-color: #007bff;
+    border-bottom: 1px solid #000 ;
+}
+
+.js-accordion-toggle-mobile.row .font-small.text-uppercase.font-weight-bold.col.p-3 {
+    font-size: 15px !important;
+    font-weight: 700;
+
+}
+
+.js-accordion-toggle-mobile.row .font-small.text-uppercase.font-weight-bold.col.p-3:hover {
+    opacity: 1 !important;
+    color: inherit !important;
+
+}
+
+.footer-menu-item a {
+    font-size: 14px !important;
+}
+
+.col-md.footer-payments-shipping-logos.mb-3.mb-md-0 .d-block.d-md-inline-block.align-middle.mb-3.mb-md-1.mr-md-2 {
+        font-size: 15px !important;
+        font-weight: 700;
+}
+
+.d-inline-block.align-middle img {
+    transform: scale(1.2);
+    border-radius: 10px;
+    border: 1px #000 solid;
+}
+
+.footer-logo.custom-seal img{
+        transform: scale(1.8);
+        border-radius: 10px;
+        background: #e0e0e0;
+        box-shadow:  -20px 20px 60px #bebebe,
+                    20px -20px 60px #ffffff;
+        margin-bottom: 20px;
+}
+
+.js-footer.js-hide-footer-while-scrolling.footer-colors.display-when-content-ready.overflow-none .container {
+    border-bottom: 2px #fff solid;
+}
