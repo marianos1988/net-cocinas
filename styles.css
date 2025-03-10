@@ -355,3 +355,118 @@ transition: all .4s ease-in;
 .js-footer.js-hide-footer-while-scrolling.footer-colors.display-when-content-ready.overflow-none .container {
     border-bottom: 2px #fff solid;
 }
+
+
+
+/* Seccion Productos*/
+
+.breadcrumbs .crumb,
+.breadcrumbs .separator {
+    font-size: 15px;
+}
+
+
+.breadcrumbs .crumb.active {
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.page-header.py-3.py-md-4 h1 {
+    background-color: #63afff;
+    color:#fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 25px 25px 49px #bebebe, 0px 0px 0px #ffffff;
+} 
+
+@media (max-width: 768px) {
+    .page-header.py-3.py-md-4 h1 {
+        box-shadow: 5px 5px 30px #9e9e9e, -5px -5px 30px #c4c4c4;
+    }
+}
+
+.row .col-md-auto.filters-sidebar.d-none.d-md-block.visible-when-content-ready {
+    padding-top: 15px;
+    background-color: #63afff;
+    border-radius: 10px;
+    box-shadow: 25px 25px 49px #bebebe, 0px 0px 0px #ffffff;
+}
+
+.js-accordion-toggle.font-md-small.text-uppercase.row.no-gutters.align-items-center.py-md-2 .col.pr-3.my-1,
+.js-accordion-toggle-inactive svg,
+.js-accordion-toggle-active svg {
+    color: #007bff;
+    fill: #007bff;
+
+}
+
+.js-accordion-toggle.font-md-small.text-uppercase.row.no-gutters.align-items-center.py-md-2 .col.pr-3.my-1:hover,
+.js-accordion-toggle-inactive svg,
+.js-accordion-toggle-active svg {
+    color: #63afff;
+    fill: #63afff;
+    transition: all .4s ease-in;
+}
+
+.mb-2.pb-md-1 .btn-link.font-small.no-underline {
+    color: #007bff;
+}
+
+.mb-2.pb-md-1 .btn-link.font-small.no-underline:hover {
+    color: #63afff;
+    transition: all .4s ease-in;
+}
+
+
+.checkbox-container .checkbox-icon {
+ border: 1px solid #007bff;
+}
+
+.checkbox-container .checkbox-icon {
+    border: 1px solid #007bff;
+}
+
+.checkbox-container .checkbox-icon {
+    border: 1px solid #63afff;
+    transition: all .4s ease-in;
+}
+
+.checkbox .checkbox-text {
+    color: #007bff;
+    font-size: 13px;
+}
+
+.checkbox .checkbox-text:hover {
+    color: #63afff;
+    font-weight: bold;
+    transition: all .4s ease-in;
+}
+
+form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase {
+    color: #007bff;
+    fill: #007bff;
+}
+
+.js-filter-input-price-container.filter-input-price-container label {
+    color: #007bff;
+}
+
+.form-group .js-price-filter-btn.btn.btn-default.btn-small {
+    background-color: #007bff;
+}
+
+.form-group .js-price-filter-btn.btn.btn-default.btn-small:hover {
+    background-color: #63afff;
+}
+
+.js-item-container.item {
+    border: #007bff 1px solid;
+    box-shadow: 10px 10px 49px #bebebe, -10px -10px 0px #ffffff;
+}
+
+@media (min-width: 768px) {
+    .js-item-container.item {
+        min-width: 160px;
+        max-width: 240px;
+    }
+}
