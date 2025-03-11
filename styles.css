@@ -470,3 +470,67 @@ form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase {
         max-width: 240px;
     }
 }
+
+
+/* Modulo Contacto */
+
+.contact-page.visible-when-content-ready.mb-4 .container .row .col-md-5 {
+    background-color: #63afff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #9e9e9e, -5px -5px 15px #c4c4c4;
+    padding: 20px;
+}
+
+@media (min-width:768px) {
+    .contact-page.visible-when-content-ready.mb-4 .container .row .col-md-5 {
+        min-width: 450px
+    }
+}
+
+.list.py-2 .mb-3 .contact-link {
+    font-size: 15px;
+    color: #007bff;
+
+}
+
+.list.py-2 .mb-3 .contact-link:hover {
+    font-size: 15px;
+    color: #63afff;
+    transition: all .4s ease-in;
+
+}
+
+.mb-3 .contact-link .icon-inline.mr-2.font-body {
+    font-size: 14px;
+    fill: #007bff;
+}
+
+.mb-3 .contact-link .icon-inline.mr-2.font-body:hover {
+    font-size: 15px;
+    fill: #63afff;
+}
+
+.form-group .form-label  {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.form-group .form-control  {
+    background-color: #fff;
+}
+
+.form-group .form-control:focus {
+    border: solid 2px #fff;
+    box-shadow: 0px 0px 20px 4px #fff;
+    transition: all .4s ease-in;
+}
+
+.btn.btn-primary.btn-big.btn-block {
+    background-color: #007bff;
+}
+
+.btn.btn-primary.btn-big.btn-block:hover {
+    background-color: #2d4968;
+    transition: all .4s ease-in;
+}
