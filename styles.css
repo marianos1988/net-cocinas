@@ -482,6 +482,60 @@ form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase {
     transition: all .4s ease-in;
 }
 
+/* filtros */
+.js-modal-close.js-fullscreen-modal-close.modal-header  {
+    background: radial-gradient(circle, rgba(116,116,116,1) 0%, rgba(0,0,0,1) 67%);
+    border-bottom: 2px solid #fff;
+}
+
+.row.no-gutters.align-items-center,
+.js-modal-close.modal-close .icon-inline.svg-icon-text {
+    color: #fff;
+    fill: #fff;
+}
+
+.js-modal-close.modal-close .icon-inline.svg-icon-text:hover {
+
+    fill: #63afff;
+    transition: all .4s ease-in;
+}
+
+.js-modal.js-fullscreen-modal.modal.modal-filters.modal-right.modal--md.transition-slide.modal-docked-md.transition-soft.modal-show .modal-body.h-100.p-0 {
+    background: linear-gradient(0deg, rgba(72,0,255,1) 7%, rgba(0,189,255,1) 94%);
+}
+
+.js-accordion-toggle.font-md-small.text-uppercase.row.no-gutters.align-items-center.py-md-2 .col.pr-3.my-1,
+form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase,
+.js-filter-input-price-container.filter-input-price-container label,
+.mb-2.pb-md-1 .btn-link.font-small.no-underline {
+    color: #fff;
+}
+
+.js-accordion-toggle-active .icon-inline.svg-icon-text.icon-lg.font-md-body.mr-1,
+.js-accordion-toggle-inactive .icon-inline.svg-icon-text.icon-lg.font-md-body.mr-1 {
+    fill: #fff;
+}
+.js-accordion-toggle-active .icon-inline.svg-icon-text.icon-lg.font-md-body.mr-1:hover,
+.js-accordion-toggle-inactive .icon-inline.svg-icon-text.icon-lg.font-md-body.mr-1:hover {
+    fill: #63afff;
+}
+
+.mb-2.pb-md-1 .btn-link.font-small.no-underline {
+    color: #fff;
+}
+
+.checkbox .checkbox-text {
+    color: #fff;
+}
+
+.checkbox .checkbox-text:hover {
+    color: #63afff;
+    transition: all .4s ease-in;
+    
+}
+
+
+
 
 
 /* Modulo Contacto */
