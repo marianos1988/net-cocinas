@@ -471,6 +471,18 @@ form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase {
     }
 }
 
+.js-modal-open.d-block.text-uppercase.font-weight-bold.font-small .d-flex.justify-content-center.align-items-center,
+.d-flex.justify-content-center.align-items-center svg {
+    color: #007bff;
+    fill: #007bff;
+}
+
+.js-modal-open.d-block.text-uppercase.font-weight-bold.font-small .d-flex.justify-content-center.align-items-center:hover {
+    color: #63afff;
+    transition: all .4s ease-in;
+}
+
+
 
 /* Modulo Contacto */
 
