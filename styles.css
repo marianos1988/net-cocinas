@@ -365,6 +365,9 @@ transition: all .4s ease-in;
     font-size: 15px;
 }
 
+[data-transition=fade-in-up].is-inViewport, .swiper-slide-duplicate [data-transition=fade-in-up] {
+    margin: 0 30px;
+}
 
 .breadcrumbs .crumb.active {
     font-weight: 900;
@@ -504,11 +507,15 @@ form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase {
     background: linear-gradient(0deg, rgba(72,0,255,1) 7%, rgba(0,189,255,1) 94%);
 }
 
-.js-accordion-toggle.font-md-small.text-uppercase.row.no-gutters.align-items-center.py-md-2 .col.pr-3.my-1,
-form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase,
+
 .js-filter-input-price-container.filter-input-price-container label,
 .mb-2.pb-md-1 .btn-link.font-small.no-underline {
-    color: #fff;
+    color: #000;
+}
+
+form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase,
+.js-accordion-toggle.font-md-small.text-uppercase.row.no-gutters.align-items-center.py-md-2 .col.pr-3.my-1 {
+    color: #000;
 }
 
 .js-accordion-toggle-active .icon-inline.svg-icon-text.icon-lg.font-md-body.mr-1,
@@ -577,7 +584,7 @@ form .font-md-small.font-weight-bold.mt-1.mb-3.text-uppercase,
 }
 
 .form-group .form-label  {
-    color: #fff;
+    color: #000;
     font-size: 15px;
     font-weight: bolder;
 }
